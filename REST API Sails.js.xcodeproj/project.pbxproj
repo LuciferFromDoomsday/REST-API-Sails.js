@@ -13,6 +13,8 @@
 		8433049925A76E75009787C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8433049825A76E75009787C7 /* Preview Assets.xcassets */; };
 		843304A425A76E75009787C7 /* REST_API_Sails_jsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843304A325A76E75009787C7 /* REST_API_Sails_jsTests.swift */; };
 		843304AF25A76E75009787C7 /* REST_API_Sails_jsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843304AE25A76E75009787C7 /* REST_API_Sails_jsUITests.swift */; };
+		843304C025A79087009787C7 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843304BF25A79087009787C7 /* Server.swift */; };
+		843304C525A7917F009787C7 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843304C425A7917F009787C7 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		843304AA25A76E75009787C7 /* REST API Sails.jsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "REST API Sails.jsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		843304AE25A76E75009787C7 /* REST_API_Sails_jsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = REST_API_Sails_jsUITests.swift; sourceTree = "<group>"; };
 		843304B025A76E75009787C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843304BF25A79087009787C7 /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		843304C425A7917F009787C7 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				8433049525A76E75009787C7 /* Assets.xcassets */,
 				8433049A25A76E75009787C7 /* Info.plist */,
 				8433049725A76E75009787C7 /* Preview Content */,
+				843304BF25A79087009787C7 /* Server.swift */,
+				843304C425A7917F009787C7 /* Task.swift */,
 			);
 			path = "REST API Sails.js";
 			sourceTree = "<group>";
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843304C525A7917F009787C7 /* Task.swift in Sources */,
 				8433049425A76E73009787C7 /* ContentView.swift in Sources */,
+				843304C025A79087009787C7 /* Server.swift in Sources */,
 				8433049225A76E73009787C7 /* REST_API_Sails_jsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
